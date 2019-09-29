@@ -2,6 +2,7 @@ public class AbcCommDashboardController
 {
     public pagereference CreateNewCase()
     {
+        System.debug('Inside the Create New Case Method and Also the AbcCommandDashboard Controller');
          pagereference pr=new pagereference('/apex/NewCase');
         return pr;
     }
